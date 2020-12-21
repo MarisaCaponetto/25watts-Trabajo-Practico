@@ -1,0 +1,23 @@
+html { 
+    box-sizing: border-box;
+    font-size: 62.5%;
+    }
+html, body {
+    margin: 0;
+    padding-top: 1px;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+*,
+*::before,
+*::after { 
+    box-sizing: inherit;
+}
+
+.general__container  {
+    width: 100%;
+    height: 3480px;
+}

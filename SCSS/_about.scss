@@ -1,0 +1,43 @@
+/*PaGE 3: ABOUT*/
+
+
+#about {
+    height: 672px;
+    width: 100%;
+    position: absolute;
+    top: 768px;
+    background-color: $firstColor;
+}
+.titulo-1 {
+    font-size: 39px;
+    font-family: $primaryFont;
+    color: $eighthColor;
+    margin-left: 299px;
+    margin-top: 167px;
+}
+.subtitulo-1 {
+    font-size: 39px;
+    font-family: $primaryFont;
+    color: $secondColor;
+    margin-left: 299px;
+    margin-top: -30px;
+}
+
+#about > p {
+    font-size: 16px;
+    font-family: $primaryFont;
+    color: $eighthColor;
+    margin-left: 299px;
+    width: 768px;
+    line-height: 28px;
+
+}
+.rectangule-1 {
+    border: 1px solid $secondColor;
+    width: 32px;
+    height: 384px;
+    position: absolute;
+    margin-top: 144px;
+    background-color: $secondColor;
+
+}

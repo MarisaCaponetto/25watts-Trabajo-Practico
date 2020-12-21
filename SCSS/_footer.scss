@@ -1,0 +1,24 @@
+/**PAGE 7: FOOTER*/
+
+.footer { 
+    border: 1px solid $thirdColor;
+    background-color: $thirdColor;
+    position: absolute;
+    margin-top: 3738px;
+    width: 100%;
+    height: 96px;
+}
+.footer > p {
+    font-size: 16px;
+    font-family: $primaryFont;
+    color: $firstColor;
+    text-align: left;
+    margin-top: 38px;
+    margin-left: 101px;
+}
+
+.image5 {
+    position: absolute;
+    margin-left: 1180px;
+    margin-top: -35px;
+}

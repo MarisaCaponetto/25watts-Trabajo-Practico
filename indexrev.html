@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="./SCSS/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="general__container">
+    <header class="header__clearfix">       
+        <a href="#inicio" class="logo">
+            <img src="./Assets/Images/top-logo.svg" alt="logo 25Watts">
+        </a>
+            
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+            </ul>
+                  
+        </nav>
+    </header>
+    <main class="main">
+        <section id="inicio" class="section-inicio">
+                <ul class="slider-item">
+                    <li id="slide1">
+                        <h2>Sed ut perspiciatis 1 <br> unde omnis iste natus</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error <br> sit voluptatem accusantium doloremque.</p>
+                        <a href="http://">Read more</a>
+                    </li>
+                    <li id="slide2">
+                        <h2>Sed ut perspiciatis 2 <br> unde omnis iste natus</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error <br> sit voluptatem accusantium doloremque.</p>
+                        <a href="http://">Read more</a>
+                    </li>
+                    <li id="slide3">
+                        <h2>Sed ut perspiciatis 3 <br> unde omnis iste natus</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error <br> sit voluptatem accusantium doloremque.</p>
+                        <a href="http://">Read more</a>
+                    </li>
+                </ul>
+        
+            <div class="slider-nav">
+                <ul class="slider">
+                    <li><a href=#slide1>1</a></li>
+                    <li><a href=#slide2>2</a></li>
+                    <li><a href=#slide3>3</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="about">
+            <div class="rectangule-1"></div>
+            <h2 class="titulo-1">We Help Businesses </h2>
+            <h2 class="subtitulo-1"> Grow and Innovate</h2> 
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <br> labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et <br> ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem <br> ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et <br> dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea <br> rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>      
+        </section>
+
+        <section id="products" class="section section-produts">
+            <div class="products__content">
+                <div class="products__cards">
+                    <h3>Sed ut perspiciatis</h3>
+                    <h2>Nemo Enim</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque laudantium, <br> totam rem aperiam.
+                </div>
+                <div class="d-none">
+                    <h3>Sed ut perspiciatis</h3>
+                    <h2>Nemo Enim</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque laudantium, <br> totam rem aperiam.
+                </div>
+                <div class="d-none">
+                    <h3>Sed ut perspiciatis</h3>
+                    <h2>Nemo Enim</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque laudantium, <br> totam rem aperiam.
+                </div>
+                <div class="products__cards--nav">
+                    <a href="javascript";class="nav-letf"><img src="./Assets/Images/Icon feather-arrow-left-circle.svg" alt="">
+                    </a>
+                    <a href="javascript";class="nav-right"><img src="./Assets/Images/Icon feather-arrow-right-circle.svg" alt="">
+                    </a>
+
+                </div>
+            </div>
+            <div >
+                <a href="#products">
+                    <img class="image2" src="Assets/Images/section3-image.png" alt="">
+                    </a>
+            </div>
+            
+        </section>
+        
+        <section id="services">  
+            <div class="image3">
+                <a href="">
+                    <img src="./Assets/Images/section4-image.png" alt="">
+                </a>
+            </div>                             
+            <div class="accordion">
+                <div>
+                  <input type="radio" name="example_accordion" id="section1" class="accordion__input">
+                  <label for="section1" class="accordion__label">Sed ut perspiciatis</label>
+                  <div class="accordion__content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita <br> kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <input type="radio" name="example_accordion" id="section2" class="accordion__input">
+                  <label for="section2" class="accordion__label">Ut enim ad minima veniam</label>
+                  <div class="accordion__content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita <br> kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <input type="radio" name="example_accordion" id="section3" class="accordion__input">
+                  <label for="section3" class="accordion__label">Sit amet, consectetur, adipisci</label>
+                  <div class="accordion__content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita <br> kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                </div>
+
+            </div>
+                                      
+        </section>
+
+        <section id="contact">
+            <div class="form">
+                <h3>Get in touch <br> <span>We are hiring!</span></h3>
+                <form action="" method="post" id="form">
+                    <div class="form">
+                        <div class="group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">   
+                        </div>
+                        <div class="group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">    
+                        </div>
+                        <div class="group">
+                            <label for="phone">Phone</label>
+                            <input type="number" name="phone" id="phone">
+                        </div>
+                        <div class="group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="4"></textarea>
+                        </div>
+                    </div>                                                                           
+                </form>
+                    <button type="submit">Send</button>
+                </div>
+                </form>
+            </div>      
+            <div>
+                <a href="#contact">
+                    <img  class="image4"  src="Assets/Images/contact-image.png" alt="Imagen Lateral 5">
+                </a>
+            </div>              
+        </section>
+    </main>
+
+    <footer class="footer">
+        <P>2020 (C) All rights reserved</P> 
+        <img class="image5" src="./Assets/Images/footer-logo.svg" alt="">
+    </footer>
+</body>
+</html>
