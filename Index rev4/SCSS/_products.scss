@@ -1,0 +1,50 @@
+/** PAGE 4: PRODUCTS*/
+
+#products {
+    background: -webkit-gradient(linear, left top, right top, color-stop(70%, $fourthColor), color-stop(30%, $fifthColor));
+    background: linear-gradient(90deg, $fourthColor 70%, $fifthColor 30%);
+    width: 100%;
+    height: 768px;
+    position: absolute;
+    margin-top: 1437px;
+}
+
+.image2 {
+    width: 70%;
+    height: 70%;
+    margin-top: 150px;
+    margin-left: 230px;
+}
+
+.products__content {
+    border: 1px solid $secondColor;
+    background-color: $secondColor;
+    width: 471px;
+    height: 304px;
+    position: absolute;
+    margin-top: 386px;
+    margin-left: 703px;
+}
+.products__content > div > h3 {
+    font-size: 16px;
+    color: $firstColor;
+    font-family: $primaryFont;
+    margin-top: 68px;
+    margin-left: 20px;
+
+}
+.products__content > div > h2 {
+        font-size: 39px;
+        color: $firstColor;
+        font-family: $primaryFont;
+        margin-top: 20px;
+        margin-left: 20px;
+}
+
+.products__content > div > p {
+    font-size: 16px;
+    color: $firstColor;
+    font-family: $primaryFont;
+    margin-top: 10px;
+    margin-left: 20px;
+}

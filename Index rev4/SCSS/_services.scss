@@ -1,0 +1,86 @@
+/*PAGE 5: SERVICES*/
+
+#services {
+    width: 100%;
+    height: 768px;
+    position: absolute;
+    margin-top: 2204px;
+}
+.image3 {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 596px;
+    
+}
+
+.accordion {
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /*overflow: hidden;*/
+    font-family: $primaryFont;
+    background-color: $sixthColor;
+    border: 1px solid $seventhColor;
+    margin-top: 160px;
+    margin-left: 101px;
+    position: absolute;
+    width: 600px;
+    
+  }
+  
+  .accordion__label {
+    padding: 14px 20px;
+    display: block;
+    color: $eighthColor;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    margin-left: 0px;
+    width: 600px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+  }
+
+
+  .accordion__content {
+    padding: 14px 20px;
+  }
+   
+  
+  .accordion__label:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion__label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../Assets/Images/Icon-feather-chevron-down.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+  }
+  
+  .accordion__content {
+    background: $firstColor;
+    line-height: 28px;
+    font-size: 16px;
+    display: none;
+  }
+  
+  .accordion__input {
+    display: none;
+  }
+  
+  .accordion__input:checked ~ .accordion__content {
+    display: block;
+  }
+  
+  .accordion__input:checked ~ .accordion__label::after {
+    transform: translateY(-50%) rotate(0.5turn);
+  }
